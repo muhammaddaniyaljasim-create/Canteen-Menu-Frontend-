@@ -1,0 +1,74 @@
+@media (max-width: 940px) {
+  .hero { gap: 30px; }
+  .menu-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .popular-grid { gap: 9px; }
+  .popular-card { grid-template-columns: 85px 1fr; gap: 9px; }
+  .popular-card img { width: 85px; }
+  .about-inner { grid-template-columns: .45fr 1.1fr .9fr; gap: 22px; }
+  .about-mark { width: 125px; height: 125px; }
+}
+@media (max-width: 700px) {
+  .page-width { width: min(100% - 38px, 520px); }
+  .site-header { height: 65px; }
+  .header-inner { width: calc(100% - 32px); gap: 11px; }
+  .brand-mark { width: 32px; height: 32px; }
+  .brand-name { font-size: 16px; }
+  .main-nav { gap: 12px; }
+  .main-nav a { font-size: 10px; }
+  .main-nav a:nth-child(3), .favorites-link { display: none; }
+  .cart-label { display: none; }
+  .hero { min-height: auto; grid-template-columns: 1fr .75fr; gap: 16px; padding-block: 43px 48px; }
+  .hero-copy { padding-left: 0; }
+  .hero h1 { font-size: clamp(36px, 8vw, 49px); }
+  .hero-description { font-size: 12px; line-height: 1.6; }
+  .hero-visual { height: 270px; }
+  .hero-badge { left: -22px; width: 60px; height: 60px; }
+  .popular-section { padding: 45px 0; }
+  .section-heading { align-items: flex-start; }
+  .section-heading h2 { font-size: 29px; }
+  .popular-grid { grid-template-columns: 1fr; }
+  .popular-card { grid-template-columns: 78px 1fr; }
+  .popular-card img { width: 78px; height: 96px; }
+  .menu-section { padding-block: 58px 65px; }
+  .menu-tools { align-items: stretch; flex-direction: column-reverse; gap: 12px; }
+  .search-box { width: 100%; }
+  .filter-list { gap: 5px; }
+  .filter-button { min-height: 31px; padding-inline: 9px; font-size: 9px; }
+  .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 9px; }
+  .menu-card-image { height: 120px; }
+  .menu-card-body { padding: 10px; }
+  .menu-card-title h2 { font-size: 14px; }
+  .menu-card-description { min-height: 38px; font-size: 8px; }
+  .about-section { padding: 50px 0; }
+  .about-inner { grid-template-columns: 1fr 1fr; gap: 24px 16px; }
+  .about-mark { width: 105px; height: 105px; justify-self: center; font-size: 23px; }
+  .about-copy h2 { font-size: 28px; }
+  .hours-card { grid-column: 1 / -1; }
+  .footer-inner { grid-template-columns: 1fr auto; gap: 12px; }
+  .footer-inner > p, .footer-inner nav { grid-column: 1 / -1; }
+  .cart-layout { grid-template-columns: 1fr; gap: 22px; }
+  .details-card { grid-template-columns: 1fr; gap: 24px; }
+  .details-card > img { max-height: 330px; }
+}
+@media (max-width: 420px) {
+  .page-width { width: calc(100% - 30px); }
+  .header-inner { width: calc(100% - 24px); }
+  .brand { gap: 6px; }
+  .brand-name { font-size: 14px; }
+  .main-nav { gap: 9px; }
+  .main-nav a { font-size: 9px; }
+  .hero { grid-template-columns: 1fr; gap: 25px; }
+  .hero h1 { font-size: 44px; }
+  .hero-visual { width: 84%; height: 265px; justify-self: center; }
+  .popular-section .section-heading { flex-direction: column; gap: 12px; }
+  .menu-grid { gap: 9px 7px; }
+  .menu-card-image { height: 105px; }
+  .menu-card-title h2 { font-size: 13px; }
+  .menu-card-description { font-size: 7.5px; }
+  .about-inner { grid-template-columns: 1fr; text-align: center; }
+  .about-copy > p:not(.eyebrow) { margin-inline: auto; }
+  .hours-card { text-align: left; }
+  .cart-drawer { padding: 20px 16px; }
+  .cart-item { grid-template-columns: 54px 1fr auto; gap: 8px; }
+  .cart-item > img { width: 54px; height: 54px; }
+}

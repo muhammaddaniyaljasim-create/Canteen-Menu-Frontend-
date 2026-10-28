@@ -1,0 +1,15 @@
+[
+  { "id": "zinger-burger", "name": "Zinger Burger", "description": "Crispy chicken, cool lettuce, and our house sauce.", "price": 450, "category": "Fast Food", "image": "/images/zinger-burger.jpg", "popular": true },
+  { "id": "chicken-shawarma", "name": "Chicken Shawarma", "description": "Spiced chicken rolled with crunchy salad.", "price": 250, "category": "Fast Food", "image": "/images/chicken-shawarma.jpg" },
+  { "id": "club-sandwich", "name": "Club Sandwich", "description": "Toasted layers with chicken and fresh greens.", "price": 350, "category": "Fast Food", "image": "/images/club-sandwich.jpg" },
+  { "id": "chicken-pizza-slice", "name": "Chicken Pizza Slice", "description": "Cheesy, savory, and just the right size.", "price": 200, "category": "Fast Food", "image": "/images/chicken-pizza.jpg" },
+  { "id": "chicken-biryani", "name": "Chicken Biryani", "description": "Fragrant basmati rice with warm spices.", "price": 300, "category": "Meals", "image": "/images/chicken-biryani.jpg", "popular": true },
+  { "id": "chicken-karahi", "name": "Chicken Karahi", "description": "A rich, homestyle tomato and ginger curry.", "price": 500, "category": "Meals", "image": "/images/chicken-karahi.jpg" },
+  { "id": "chicken-pulao", "name": "Chicken Pulao", "description": "Lightly spiced rice cooked in savory broth.", "price": 250, "category": "Meals", "image": "/images/chicken-biryani.jpg" },
+  { "id": "french-fries", "name": "French Fries", "description": "Golden, crisp fries with a pinch of salt.", "price": 180, "category": "Snacks", "image": "/images/french-fries.jpg" },
+  { "id": "samosa", "name": "Samosa", "description": "Flaky pastry with a warmly spiced filling.", "price": 50, "category": "Snacks", "image": "/images/samosa.jpg" },
+  { "id": "chicken-roll", "name": "Chicken Roll", "description": "Juicy chicken wrapped up with a little crunch.", "price": 150, "category": "Snacks", "image": "/images/chicken-shawarma.jpg" },
+  { "id": "fresh-lemonade", "name": "Fresh Lemonade", "description": "Freshly squeezed, cool, and citrusy.", "price": 120, "category": "Drinks", "image": "/images/fresh-lemonade.jpg", "popular": true },
+  { "id": "cold-coffee", "name": "Cold Coffee", "description": "Smooth coffee served chilled and creamy.", "price": 200, "category": "Drinks", "image": "/images/cold-coffee.jpg" },
+  { "id": "mineral-water", "name": "Mineral Water", "description": "A refreshing bottle to take to your next class.", "price": 80, "category": "Drinks", "image": "/images/fresh-lemonade.jpg" }
+]

@@ -1,0 +1,9 @@
+.menu-card { animation: card-in .35s ease both; }
+.button:hover { transform: translateY(-2px); }
+.text-link:hover { color: var(--orange); }
+.toast-message { animation: toast-in .22s ease both; }
+@keyframes card-in { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes toast-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

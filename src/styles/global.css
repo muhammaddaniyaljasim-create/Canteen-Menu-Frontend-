@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+body { margin: 0; min-width: 320px; background: var(--cream); color: var(--ink); font-size: 15px; -webkit-font-smoothing: antialiased; }
+button, input, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: "Fraunces", Georgia, serif; letter-spacing: 0; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #e27a4580; outline-offset: 3px; }
+.page-width { width: min(1160px, calc(100% - 64px)); margin-inline: auto; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.eyebrow { margin: 0 0 12px; color: var(--green); font-size: 9px; font-weight: 700; letter-spacing: .17em; line-height: 1.5; }
+.button { min-height: 45px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 0 18px; border: 0; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 700; transition: transform .2s, background .2s, box-shadow .2s; }
+.button:hover { transform: translateY(-2px); }
+.button-primary { background: var(--green); color: white; box-shadow: 0 7px 15px #214f3d24; }
+.button-primary:hover { background: var(--green-dark); }
+.price { color: var(--green); font-size: 12px; font-weight: 700; white-space: nowrap; }
